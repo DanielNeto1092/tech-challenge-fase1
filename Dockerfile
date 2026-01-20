@@ -5,6 +5,7 @@ FROM python:3.11-slim
 ENV PYTHONDONTWRITEBYTECODE=1 \
     PYTHONUNBUFFERED=1
 
+# Define a pasta de trabalho
 WORKDIR /app
 
 # Dependências do sistema (opcional, mas ajuda com builds de wheels)
